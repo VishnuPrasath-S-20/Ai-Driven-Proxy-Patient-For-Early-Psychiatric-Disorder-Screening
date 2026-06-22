@@ -1,0 +1,25 @@
+# Isolated Python Environment Sandbox
+venv/
+miniconda3/
+
+# Large Production AI Weights & Checkpoints (Exceeds GitHub's 100MB limits)
+psychiatric_deberta_v3/
+final_model_v1/
+*.bin
+*.pt
+*.safetensors
+
+# Raw Research Datasets
+*.csv
+
+# Local Application State Databases (Contains your private test logs & IDs)
+credentials.txt
+pdata.txt
+
+# System Cache and Temporary Audio Fragments
+__pycache__/
+.pytest_cache/
+*.mp3
+.DS_Store
+.ipynb_checkpoints/
+proxy_patient_final/
