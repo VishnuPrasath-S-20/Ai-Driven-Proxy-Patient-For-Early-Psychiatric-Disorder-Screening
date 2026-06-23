@@ -13,7 +13,7 @@ The system handles multi-role authentication boundaries and local state transact
 
 ---
 
-## ## Empirical Research Results & Performance
+## Empirical Research Results & Performance
 The underlying neural classification layer was validated over unseen multi-class validation splits on local edge hardware (NVIDIA GeForce RTX 4050 Laptop GPU):
 
 * **Total Classification Accuracy:** **95.38%**
@@ -33,7 +33,7 @@ The underlying neural classification layer was validated over unseen multi-class
 
 ---
 
-## ## Local Repository Topology
+## Local Repository Topology
 ```text
 research_workspace/
 ├── aiscr.py                  # Production Streamlit Application Engine
