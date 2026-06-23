@@ -4,7 +4,7 @@ An enterprise-grade, 100% offline edge-computing platform designed for clinical 
 
 ---
 
-## ## Core Architectural Layout
+## Core Architectural Layout
 The system handles multi-role authentication boundaries and local state transactions across three dedicated functional interfaces:
 
 * **Patient Intake Interface:** Captures open-ended text inputs, passes sequences to a GPU-accelerated classifier, logs safety-triage parameters, and uses a local Llama 3 endpoint to generate immediate, empathetic, non-diagnostic behavioral feedback.
